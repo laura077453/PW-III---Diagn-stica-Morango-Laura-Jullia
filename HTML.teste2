@@ -6,16 +6,16 @@
     <!--Favicon para  o site-->
     <link rel="icon" type="image/x-icon" href="/Imagens/FaviconMorango.png">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Site de morangos</title>
+    <title>Site de morangos</title> 
 </head>
-<body>
-    <img src="file:///C:/Users/laura/Downloads/inicialmorango.png" id="inicial">
+<body style="background-color: #fadde6;">
+    <img src="file:///C:/Users/laura/Downloads/inicialmorango.png" style="width: 100%; height: 100%; margin: 0%;">
     <title> Morangos </title>
 <br>
 <br>
-<div class="morango">
-    <h2> San Andreas </h2>
-    <p>O morango San Andreas é uma variedade de alto rendimento, famosa por seus frutos grandes, firmes e saborosos, com coloração vermelho intenso e brilhante.
+<div class="morango" style="background-color: rgb(255, 200, 200);border-radius: 7%; margin-left: 3%; width: 60%; ">
+    <h2 style="padding: 2%;  text-align: center;"> San Andreas </h2>
+    <p style="padding: 3%;">O morango San Andreas é uma variedade de alto rendimento, famosa por seus frutos grandes, firmes e saborosos, com coloração vermelho intenso e brilhante.
 <br>
 É uma cultivar de dias neutros, ideal para consumo in natura devido ao seu equilíbrio entre doçura e acidez, além de ser altamente produtiva o ano todo. 
 <br>
@@ -55,10 +55,11 @@ Sistemas: Adapta-se muito bem ao cultivo em solo (com mulching plástico) e espe
 é maximizada.
 </p>
 </div>
+<img src="file:///C:/Users/laura/Downloads/morangoSan.jpg" style="width: 30%; height: 30%;">
 <br>
 <br>
-<div class="morango">
-<h2>Albion</h2>
+<div class="morango" style="background-color: rgb(255, 200, 200);border-radius: 7%; margin-left: 3%; width: 60%;">
+<h2 style="padding: 2%;  text-align: center;">Albion</h2>
 <p>
 O morango Albion é reconhecido como o padrão de qualidade no mercado de mesa, destacando-se pelo sabor excepcionalmente doce (alto teor de açúcar) e aroma intenso.
 <br>
@@ -97,10 +98,11 @@ Moderadamente Resistente: Antracnose (Colletotrichum acutatum).
 Sensibilidade: É um pouco mais suscetível a pragas em comparação à San Andreas, exigindo monitoramento constante.
 </p>
 </div>
+<img src="file:///C:/Users/laura/Downloads/morangoAlbion.jpg" style="width: 20%; height: 10%; margin: 0%;">
 <br>
 <br>
-<div class="morango">
-<h2>Sabrina</h2>
+<div class="morango" style="background-color: rgb(255, 200, 200);border-radius: 7%; margin-left: 3%; width: 60%;">
+<h2 style="padding: 2%;  text-align: center;">Sabrina</h2>
 <p>
  A descrição detalhada do morango Sabrina foca em sua genética europeia (espanhola), que prioriza o sabor doce e a resistência da planta no campo.
 <br>
@@ -147,10 +149,11 @@ Pós-Colheita: Possui uma "janela de venda" estendida. A elasticidade da epiderm
 Valor Agregado: Devido ao sabor diferenciado, é a escolha preferida para mercados premium, confeitarias de alto padrão e venda direta ao consumidor final.
 </p>
 </div>
+<img src="file:///C:/Users/laura/Downloads/morangoSabrina.jpg" style="width: 30%; height: 30%; margin: 0%;">
 <br>
 <br>
-<div class="morango">
-<h2>Festival</h2>  
+<div class="morango" style="background-color: rgb(255, 200, 200);border-radius: 7%; margin-left: 3%; width: 60%;">
+<h2 style="padding: 2%;  text-align: center;">Festival</h2>  
 <p>
 O morango Festival (nome comercial da cultivar Strawberry Festival) é uma das variedades mais tradicionais e amplamente cultivadas no mundo. Lançada no ano de
  2000 pela Universidade da Flórida (EUA), ela se destaca principalmente pelo equilíbrio entre beleza visual, firmeza e doçura.
@@ -198,10 +201,11 @@ Uso Versátil: Devido à sua firmeza e cor intensa, é excelente tanto para o co
 Facilidade de Colheita: O comprimento das hastes e a visibilidade dos frutos na planta reduzem o tempo e o custo de mão de obra na colheita.
 </p>
 </div>
+<img src="file:///C:/Users/laura/Downloads/morangoFestival.jpg" style="width: 30%; height: 30%; margin: 0%;">
 <br>
 <br>
-<div class="morango">
-<h2>Monterrey</h2>
+<div class="morango" style="background-color: rgb(255, 200, 200);border-radius: 7%; margin-left: 3%; width: 60%;">
+<h2 style="padding: 2%;  text-align: center;">Monterrey</h2>
 <p>
 O morango Monterey é uma cultivar de "dia neutro" desenvolvida pela Universidade da Califórnia (lançada em 2009). É amplamente reconhecido por sua alta produtividade, especialmente em períodos de calor, e por possuir um dos sabores mais doces entre as variedades californianas.
 <br>
@@ -246,10 +250,11 @@ Sistemas: Adapta-se muito bem ao cultivo fora do solo (semi-hidropônico) e em s
 Uso: Devido à sua qualidade superior e aparência, é ideal para o mercado de mesa (in natura), mas também serve perfeitamente para processamento industrial.
 </p>
 </div>
+<img src="file:///C:/Users/laura/Downloads/morangoMonterrey.jpg" style="width: 30%; height: 30%; margin: 0%;">
 <br>
 <br>
-<div class="morango">
-<h2>Florida Beauty </h2>
+<div class="morango" style="background-color: rgb(255, 200, 200);border-radius: 7%; margin-left: 3%; width: 60%;">
+<h2 style="padding: 2%;  text-align: center;">Florida Beauty </h2>
 <p>
  O morango Florida Beauty é uma das cultivares mais modernas e promissoras desenvolvidas pela Universidade da Flórida (lançada comercialmente por volta de 2016).
 <br>
@@ -299,6 +304,7 @@ Pós-Colheita: Apesar de ser suculenta, possui uma firmeza de pele que suporta b
 Mercado Premium: Pela sua beleza e sabor superior, é frequentemente destinada a nichos de mercado mais exigentes, como empórios e vendas diretas.
 </p>
 </div>
+<img src="file:///C:/Users/laura/Downloads/morangoFlorida.jpg" style="width: 30%; height: 30%; margin: 0%;">
     <!--Header-->
     <header>
         <a><img></a>
