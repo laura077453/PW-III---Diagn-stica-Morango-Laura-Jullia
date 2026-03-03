@@ -1,0 +1,126 @@
+        /*Aqui eu usei o import para exportar algumas fontes do google fonts*/
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+        body {
+            background-color: #ffe6ef;
+            font-family: "Work Sans", sans-serif;
+        }
+        /*Aqui temos o desing do botão cascata, colapsível*/
+        .colapsível {
+            background-color: #e47a88;
+            color: white;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            border-radius: 20px;
+            margin-top: 5px;
+        }
+
+        .colapsível:hover { /*o hover é uma propriedade de que quando você passar o mouse por cima de tal classe ele faz algo*/
+            background-color: #c56471;
+        }
+
+        .conteúdo {
+            padding: 0 18px;
+            display: none;
+            /* Oculta o conteúdo por padrão para aparecer só quando clicarmos no botão (próxima coisa no script) */
+            overflow: hidden;
+            background-color: #ffe6ef;
+        }
+
+        /*O cabeçalho*/
+        .header {
+            padding-top: 7px;
+            padding-bottom: 7px;
+            width: 100%;
+            z-index: 1000;
+            top: 0;
+            position: fixed;
+            background-color: #ffe6ef;
+        }
+
+        .logo img {
+            height: 40px;
+            width: auto;
+        }
+
+        .nav {
+            max-width: 1200px;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        /*Aqui o hero, com imagem, título e texto*/
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding: 50px;
+            background-color: #ffeef2;
+        }
+
+        .ConjuntoTextoM {
+            margin-left: 200px;
+            margin-top: -100px;/*o texto estava muito para baixo e não tive muito tempo para arrumar, então fiz isso*/
+        }
+
+        /* Container da Imagem */
+        .heroImagem {
+            position: relative;
+            width: 600px;
+            height: 600px;
+        }
+
+        .MorangosHero {
+            position: absolute;
+            top: 5%;
+            left: 10%;
+            width: 400px;
+            height: 400px;
+            z-index: 2;
+        }
+
+        /* Tipografia */
+        .title {
+            font-family: "Abril Fatface", serif;
+            color: #d8041d;
+            font-size: 4rem;
+        }
+
+        .btnNewslet {
+            display: inline-block;
+            padding: 15px 40px;
+            border: 2px solid #d1001c;
+            color: #d1001c;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 10px;
+            background-color: #ffc0c8;
+        }
+
+        .btnNewslet:hover {
+            background-color: #dea2aa;
+        }
+
+        .morangoCard {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 100px;
+        }
+
+        .morango {
+            background-color: rgb(255, 200, 200);
+            border-radius: 20px;
+            width: 370px;  
+            min-width: 300px;
+            padding: 20px;
+            box-sizing: border-box;  
+        }

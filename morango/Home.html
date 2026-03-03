@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Favicon para o site-->
+    <link rel="icon" type="image/x-icon" href="/Imagens/Favicon.png">
+    <!--Folha de estilo-->
+    <link rel="stylesheet" type="text/css" href="Style.css">
+    <title>Site de morangos</title>
+</head>
+
+<body>
+    <!--Header-->
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">
+                <img src="/Imagens/Favicon.png" alt="logo image">
+            </div>
+        </nav>
+    </header>
+
+    <!--Hero, aqui vamos ter a apresentação do site-->
+    <section class="hero">
+        <div class="heroImagem">
+            <img src="/Imagens/Hero.png" alt="Morangos" class="MorangosHero">
+        </div>
+
+        <div class="ConjuntoTextoM">
+            <h1 class="title">Morangos</h1>
+            <p class="text">Inscreva-se em nossa Newsletter e fique sabendo de todas as novidades sobre morangos.</p>
+            <a href="#" ><button class="btnNewslet" onclick="let email = prompt('Digite seu e-mail:'); if(email) { alert('E-mail: ' + email + ' cadastrado com sucesso!'); }">Inscreva-se</button> </a>
+        </div>
+    </section>
+
+    <!--Cards colapsíveis sobre os tipos de morangos-->
+    <div class="morangoCard">
+        <!--MORANGO SAN ANDREAS-->
+        <div class="morango">
+            <h2>Morango San Andreas</h2>
+            <img src="https://hortitecagricola.com.br/files/1697644/a75bf8bb8a8a48ee30b30c697453c785" alt="imagem do morango San Andreas" height="200px" width="300px">
+            <p style="padding: 3%;">O morango San Andreas é uma variedade de alto rendimento, famosa por seus frutos grandes, firmes e saborosos, com coloração vermelho intenso e brilhante.
+                <br> É uma cultivar de dias neutros, ideal para consumo in natura devido ao seu equilíbrio entre doçura e acidez, além de ser altamente produtiva o ano todo.
+                <br> O morango San Andreas, desenvolvida pela Universidade da Califórnia (lançada em 2009) a partir do cruzamento entre as variedades Camino Real e Ventana. No Brasil, é uma das variedades mais populares para comercialização devido à sua resistência e excelente aparência visual.
+                <br>
+            </p>
+
+            <button class="colapsível">Perfil do Fruto</button>
+            <div class="conteúdo">
+                Aparência e Tamanho: Os frutos são grandes, com peso médio de 20g a 30g, e apresentam formato cônico-alongado muito simétrico. Possuem uma coloração vermelha intensa e brilhante, com pele densa e elástica que ajuda a manter a forma.
+                <br> Qualidade Sensorial: A polpa é firme, suculenta e de cor laranja-rosada. Seu sabor é equilibrado entre doçura e acidez, sendo considerado superior ao da variedade Albion no início da safra.
+                <br> Pós-colheita: É altamente valorizado por sua alta firmeza, o que garante excelente resistência ao transporte e maior vida útil nas prateleiras (shelf-life).
+                <br>
+            </div>
+
+            <button class="colapsível">Características da Planta e Cultivo</button>
+            <div class="conteúdo">
+                Hábito de Crescimento: A planta possui vigor moderado, sendo mais compacta que a cultivar Aromas, o que facilita o manejo e a colheita.
+                <br> Produção de Estolões: Produz poucos estolões (mudas laterais) durante a fase de frutificação, direcionando mais energia para a produção de morangos.
+                <br> Produtividade: É uma das mais produtivas do mercado, alcançando entre 700g e 900g por planta por ciclo, com colheitas constantes que podem durar até 5 meses ou mais, dependendo do clima.
+                <br>
+            </div>
+
+            <button class="colapsível">Resistência a Doenças e Pragas</button>
+            <div class="conteúdo">
+                A cultivar San Andreas é conhecida por sua robustez fitossanitária, sendo:
+                <br> Resistente/Moderadamente Resistente: A oídio (Sphaerotheca macularis), antracnose, murcha de verticillium, podridão da coroa (Colletotrichum) e mancha foliar.
+                <br> Tolerante: Ao ácaro-rajado (Tetranychus urticae), uma das principais pragas da cultura.
+                <br>
+            </div>
+
+            <button class="colapsível">Recomendações de Uso</button>
+            <div class="conteúdo">
+                Mercado: Ideal para o mercado de mesa (consumo in natura) devido ao calibre e firmeza, mas também pode ser utilizada em processamento e conservação.
+                <br>
+                <p>Sistemas: Adapta-se muito bem ao cultivo em solo (com mulching plástico) e especialmente a sistemas fora do solo (semi-hidropônicos) em estufas, onde sua produtividade é maximizada.</p>
+            </div>
+        </div>
+
+        <!--MORANGO ALBION-->
+        <div class="morango">
+            <h2>Morango Albion</h2>
+            <img src="https://ae01.alicdn.com/kf/U5964d27dc2c942bda68f38cb0ab222d7G.jpg" alt="imagem do card" height="200px" width="350px">
+            <p>O morango Albion é reconhecido como o padrão de qualidade no mercado de mesa, destacando-se pelo sabor excepcionalmente doce (alto teor de açúcar) e aroma intenso.
+                <br> Lançada em 2004 pela Universidade da Califórnia, é uma cultivar de dia neutro, o que permite a produção contínua de flores e frutos independentemente do comprimento do dia, desde que as temperaturas estejam favoráveis.
+            </p>
+
+            <button class="colapsível">Características Detalhadas do Fruto</button>
+            <div class="conteúdo">
+                Qualidade Sensorial: Sabor muito doce, suculento e polpa abundante. É considerado um dos melhores para sobremesas e consumo in natura.
+                <br> Morfologia: Frutos grandes (podendo chegar a 50-60g em picos de safra), com formato cônico-alongado e alta simetria.
+                <br> Coloração e Firmeza: Apresenta cor vermelho-escuro brilhante, tanto externa quanto internamente. Sua alta firmeza garante excelente resistência ao transporte e durabilidade pós-colheita.
+            </div>
+
+            <button class="colapsível">Perfil da Planta e Produção</button>
+            <div class="conteúdo">
+                Hábito de Crescimento: Planta de porte médio, ereta e compacta, com folhas verde-escuras resistentes.
+                <br> Produtividade: Produz em média 57 frutos por planta por ciclo. Embora o rendimento individual possa ser ligeiramente inferior a cultivares como a San Andreas, sua constância de colheita é maior, raramente interrompendo a produção semanal.
+                <br> Propagação: É uma grande produtora de estolões (corredores), exigindo podas frequentes para manter o vigor dos frutos.
+                <br>
+            </div>
+
+            <button class="colapsível">Exigências Técnicas e Cultivo</button>
+            <div class="conteúdo">
+                Clima e Solo: Tolerante ao calor e à umidade, desenvolve-se melhor em temperaturas entre 13°C e 26°C. Prefere solos ricos em matéria orgânica, bem drenados, com pH ideal entre 5,8 e 6,2.
+                <br> Espaçamento: Recomenda-se cerca de 20 cm entre plantas e 30 cm entre fileiras em canteiros.
+                <br> Sistemas: Altamente recomendada para plasticultura (canteiros com mulching) e sistemas semi-hidropônicos.
+                <br>
+            </div>
+
+            <button class="colapsível">Sanidade e Resistências</button>
+            <div class="conteúdo">
+                Resistente: Murcha de Verticillium (Verticillium dahliae) e Podridão da Coroa (Phytophthora cactorum).
+                <br> Moderadamente Resistente: Antracnose (Colletotrichum acutatum).
+                <br> Sensibilidade: É um pouco mais suscetível a pragas em comparação à San Andreas, exigindo monitoramento constante.
+            </div>
+        </div>
+
+        <!--MORANGO SABRINA-->
+        <div class="morango">
+            <h2>Morango Sabrina</h2>
+            <img src="https://www.mundoecologia.com.br/wp-content/uploads/2019/05/Morango-Sabrina-1.jpg" alt="imagem do card" height="200px" width="300px">
+            <p>A descrição detalhada do morango Sabrina foca em sua genética europeia (espanhola), que prioriza o sabor doce e a resistência da planta no campo.
+                <br>
+            </p>
+
+            <button class="colapsível">Perfil Sensorial e Aparência do Fruto</button>
+            <div class="conteúdo">
+                Sabor e Doçura: É considerada uma das variedades mais saborosas do mercado. Possui um alto teor de sólidos solúveis (Brix), resultando em um sabor intensamente doce com acidez quase imperceptível.
+                <br> Coloração: O fruto apresenta um vermelho vivo e uniforme, que atinge tanto a casca quanto o coração da polpa. O brilho é persistente, mantendo o aspecto de "fruto fresco" por mais tempo.
+                <br> Formato e Peso: Os frutos são grandes, com formato cônico-alongado e extrema simetria. Diferente de outras variedades, ela mantém o calibre grande (acima de 25g) durante quase todo o ciclo de colheita.
+                <br> Textura: A polpa é carnosa e suculenta, mas com firmeza suficiente para garantir resistência ao transporte e ao toque no momento da colheita.
+                <br>
+            </div>
+
+            <button class="colapsível">Comportamento e Estrutura da Planta</button>
+            <div class="conteúdo">
+                Tipo de Desenvolvimento: É uma cultivar de dia curto. Isso significa que ela concentra sua produção nos meses de clima ameno e frio, sendo ideal para plantios de outono/inverno.
+                <br> Vigor Vegetativo: A planta é vigorosa e de hábito globoso. Sua folhagem é densa e verde-escura, o que ajuda a proteger os frutos da incidência direta de raios solares e de geadas leves.
+                <br> Floração e Polinização: Produz flores grandes com alta viabilidade de pólen, o que resulta em uma baixa taxa de frutos deformados, mesmo em condições climáticas instáveis.
+                <br>
+            </div>
+
+            <button class="colapsível">Desempenho Produtivo</button>
+            <div class="conteúdo">
+                Produtividade Estimada: Em condições ideais de manejo, pode produzir entre 800g e 1kg por planta.
+                <br> Estabilidade: A curva de produção é constante. Ela não apresenta grandes "vazios" de colheita, permitindo que o produtor tenha oferta semanal regular durante a safra.
+                <br> Longevidade: Mostra excelente vigor até o final do ciclo, não definhando precocemente como algumas variedades de dia neutro podem fazer sob estresse.
+                <br>
+            </div>
+
+            <button class="colapsível">Aspectos de Cultivo e Resistência</button>
+            <div class="conteúdo">
+                Rusticidade: É uma planta robusta, apresentando maior tolerância natural a fungos de solo e doenças radiculares em comparação aos morangos de linhagem americana.
+                <br> Adaptação: Embora tenha sido criada na Espanha, adaptou-se perfeitamente ao clima do Sul e Sudeste do Brasil, tanto em solo (canteiros) quanto em sistemas elevados (semi-hidropônicos).
+                <br> Exigência Hídrica: Por ser uma planta vigorosa, demanda uma irrigação precisa e constante, especialmente nas fases de pico de frutificação.
+                <br>
+            </div>
+
+            <button class="colapsível">Diferenciais de Mercado</button>
+            <div class="conteúdo">
+                Pós-Colheita: Possui uma "janela de venda" estendida. A elasticidade da epiderme evita rachaduras e perda de líquido, permitindo que o fruto chegue ao consumidor final com excelente aspecto.
+                <br> Valor Agregado: Devido ao sabor diferenciado, é a escolha preferida para mercados premium, confeitarias de alto padrão e venda direta ao consumidor final.
+            </div>
+        </div>
+
+        <!--MORANGO FESTIVAL-->
+        <div class="morango">
+            <h2>Morango Festival</h2>
+            <img src="http://www.adecil.com/site/padua/3101/c10j0001/140517/0010p.jpg" alt="imagem do card" height="200px" width="300px">
+            <p>O morango Festival (nome comercial da cultivar Strawberry Festival) é uma das variedades mais tradicionais e amplamente cultivadas no mundo. Lançada no ano de 2000 pela Universidade da Flórida (EUA), ela se destaca principalmente pelo equilíbrio entre beleza visual, firmeza e doçura.
+                <br>
+            </p>
+
+            <button class="colapsível">Perfil do Fruto e Sabor</button>
+            <div class="conteúdo">
+                Sabor e Aroma: Possui um sabor doce característico e aroma marcante (descrito como tendo notas de pêssego em alguns estudos). Seu teor de açúcares (°Brix) é considerado adequado para o mercado de consumo fresco.
+                <br> Aparência: Os frutos apresentam um formato cônico-longo muito simétrico e uniforme. A epiderme é vermelho-escura e brilhante, enquanto a polpa é vermelha.
+                <br> Firmeza e Pós-colheita: É uma das variedades mais firmes, o que a torna ideal para o transporte a longas distâncias e garante uma boa vida de prateleira sem perder a qualidade.
+                <br> Peso Médio: Os frutos primários são grandes (entre 25g e 35g), enquanto os secundários e terciários tendem a ser médios (15g a 25g).
+                <br>
+            </div>
+
+            <button class="colapsível">Características da Planta</button>
+            <div class="conteúdo">
+                Tipo de Desenvolvimento: É uma cultivar de dia curto. Isso significa que sua floração é induzida por períodos de luz solar reduzida (outono/inverno), concentrando a produção nessas épocas.
+                <br> Estrutura: A planta é vigorosa e possui hastes longas, o que facilita significativamente a colheita manual.
+                <br> Manejo: Devido ao seu vigor, pode exigir um espaçamento um pouco maior entre as mudas para evitar o sombreamento excessivo e facilitar a ventilação.
+                <br>
+            </div>
+
+            <button class="colapsível">Produtividade e Desempenho</button>
+            <div class="conteúdo">
+                Rendimento: Apresenta bons níveis de produtividade, sendo frequentemente comparada às melhores seleções de genótipos comerciais em testes de campo.
+                <br> Sistemas de Cultivo: Embora tradicionalmente cultivada em solo com mulching, adapta-se muito bem a sistemas protegidos e ao cultivo semi-hidropônico.
+                <br> Estabilidade: É valorizada por produtores que precisam de uma produção confiável e frutos que mantenham o padrão comercial do início ao fim da safra.
+                <br>
+            </div>
+
+            <button class="colapsível">Resistência a Doenças e Pragas</button>
+            <div class="conteúdo">
+                Tolerância: Possui resistência moderada a doenças foliares comuns, como o oídio e a podridão radicular.
+                <br> Sensibilidade: Como a maioria das cultivares, requer monitoramento preventivo contra doenças causadas por fungos (como Botrytis cinerea) e ácaro-rajado para garantir o máximo potencial produtivo.
+                <br>
+            </div>
+
+            <button class="colapsível">Principais Diferenciais</button>
+            <div class="conteúdo">
+                Uso Versátil: Devido à sua firmeza e cor intensa, é excelente tanto para o consumo in natura quanto para a indústria de processamento (congelados e doces).
+                <br> Facilidade de Colheita: O comprimento das hastes e a visibilidade dos frutos na planta reduzem o tempo e o custo de mão de obra na colheita.
+            </div>
+        </div>
+
+        <!--MORANGO MONTERREY-->
+        <div class="morango">
+            <h2>Morango Monterrey</h2>
+            <img src="https://hortitecagricola.com.br/files/1697661/af97abb84b6b895d2cd318f28e1a3501" alt="imagem do card" height="200px" width="300px">
+            <p>O morango Monterey é uma cultivar de "dia neutro" desenvolvida pela Universidade da Califórnia (lançada em 2009). É amplamente reconhecido por sua alta produtividade, especialmente em períodos de calor, e por possuir um dos sabores mais doces entre as variedades californianas.
+                <br>
+            </p>
+
+            <button class="colapsível">Perfil do Fruto e Sabor</button>
+            <div class="conteúdo">
+                Sabor Distinto: Possui um excelente equilíbrio entre açúcares e acidez, destacando-se por um retrogosto doce único.
+                <br> Tamanho e Formato: Os frutos são grandes e simétricos, geralmente maiores que os da variedade Albion. Apresentam formato cônico-longo.
+                <br> Coloração e Aparência: Tem uma cor vermelho-escura brilhante e atraente, o que lhe confere excelentes notas em avaliações de aparência comercial.
+                <br> Textura: A polpa é firme e crocante, embora possa ser ligeiramente menos firme que a da Albion em certas condições.
+                <br>
+            </div>
+
+            <button class="colapsível">Características da Planta</button>
+            <div class="conteúdo">
+                Vigor Vegetativo: É uma planta muito vigorosa e de crescimento mais ereto que outras variedades. Devido ao seu porte, pode exigir um espaçamento um pouco maior entre as mudas (cerca de 20 cm).
+                <br> Inflorescências: Suas flores costumam sobressair à folhagem, facilitando a polinização e a colheita. Apresenta talos de inflorescência grossos e eretos, indicando boa nutrição e vigor.
+                <br> Produção de Estolões: A planta demonstra força emitindo bastante estolões quando bem nutrida.
+                <br>
+            </div>
+
+            <button class="colapsível">Desempenho e Produtividade</button>
+            <div class="conteúdo">
+                Rendimento Elevado: Pode produzir entre 700g e 1 kg por planta por ciclo, com potencial para atingir até 2 kg em condições ideais de manejo.
+                <br> Produção no Verão: Destaca-se por manter uma alta capacidade produtiva mesmo quando os dias são mais quentes e longos, sendo uma das melhores opções para colheitas de verão.
+                <br> Constância: Apresenta um padrão de produção sereno e constante, com floradas sucessivas.
+                <br>
+            </div>
+
+            <button class="colapsível">Sanidade e Resistências</button>
+            <div class="conteúdo">
+                Perfil de Resistência: É considerada resistente a diversas doenças fúngicas de solo. É moderadamente resistente à antracnose, murcha de verticillium e podridão da coroa.
+                <br> Sensibilidade: Sua principal vulnerabilidade é ao oídio (Sphaerotheca macularis), exigindo monitoramento preventivo e controle rigoroso pelo produtor.
+                <br> Pragas: É tolerante ao ácaro-rajado.
+                <br>
+            </div>
+
+            <button class="colapsível">Recomendações de Cultivo</button>
+            <div class="conteúdo">
+                Sistemas: Adapta-se muito bem ao cultivo fora do solo (semi-hidropônico) e em sistemas protegidos (túneis), mas também apresenta ótimo desempenho em solo.
+                <br> Uso: Devido à sua qualidade superior e aparência, é ideal para o mercado de mesa (in natura), mas também serve perfeitamente para processamento industrial.
+                <br>
+            </div>
+        </div>
+
+        <!--MORANGO FLORIDA BEAUTY-->
+        <div class="morango">
+            <h2>Morango Florida Beauty</h2>
+            <img src="https://vashnil.com/upload/thumbs/product_lg/productimage/image/1_60e3f07e5165a.jpg" alt="imagem do card" height="200px" width="300px">
+            <p>O morango Florida Beauty é uma das cultivares mais modernas e promissoras desenvolvidas pela Universidade da Flórida (lançada comercialmente por volta de 2016).
+                <br> Ela foi criada especificamente para atender a produtores que buscam alta produtividade precoce e frutos com qualidade gourmet.
+                <br>
+            </p>
+
+            <button class="colapsível">Perfil Sensorial e Qualidade do Fruto</button>
+            <div class="conteúdo">
+                Sabor Excepcional: É amplamente elogiada pelo sabor doce e equilibrado. Diferente de algumas variedades que precisam de pleno sol para adoçar, a Florida Beauty mantém altos níveis de açúcar (°Brix) mesmo em períodos com menor luminosidade.
+                <br> Aroma: Possui um aroma intenso e frutado, sendo muito atrativa para o consumo in natura.
+                <br> Aparência e Formato: Os frutos têm formato cônico perfeito e são extremamente uniformes. Apresentam uma cor vermelho-brilhante atraente que não escurece excessivamente após a colheita.
+                <br> Cálice (Coroa): Possui sépalas (folhas do topo) grandes e de um verde muito vivo, o que destaca o contraste com o vermelho do fruto e aumenta o valor visual no mercado de mesa.
+            </div>
+
+            <button class="colapsível">Características da Planta e Desenvolvimento</button>
+            <div class="conteúdo">
+                Tipo de Fotoperíodo: É classificada como uma cultivar de dia neutro (ou dia neutro "fraco"). Isso permite que ela floresça e produza frutos continuamente, sem depender estritamente da duração do dia.
+                <br> Arquitetura da Planta: Possui um hábito de crescimento aberto e compacto. Essa estrutura facilita muito a ventilação interna e a penetração de luz, reduzindo a incidência de fungos nos frutos.
+                <br> Facilidade de Colheita: Os frutos ficam bem expostos devido às hastes longas, o que aumenta o rendimento da mão de obra na hora da colheita.
+                <br>
+            </div>
+
+            <button class="colapsível">Desempenho Produtivo e Precocidade</button>
+            <div class="conteúdo">
+                Alta Precocidade: O grande trunfo desta variedade é a rapidez com que começa a produzir após o plantio das mudas. É ideal para produtores que precisam entrar cedo no mercado para aproveitar melhores preços.
+                <br> Produtividade: Apresenta um rendimento elevado e, crucialmente, constante. Ela não sofre com grandes "vazios" de produção entre uma florada e outra.
+                <br> Tamanho dos Frutos: Mantém um calibre comercial excelente (médio a grande) durante praticamente todo o ciclo, com pouca incidência de frutos miúdos no final da safra.
+                <br>
+            </div>
+
+            <button class="colapsível">Resistência e Manejo Fitossanitário</button>
+            <div class="conteúdo">
+                Resistência a Doenças: Mostra boa tolerância à podridão da coroa causada por Phytophthora e à murcha de Colletotrichum (antracnose).
+                <br> Sensibilidade: Sua estrutura compacta e aberta ajuda a evitar o mofo cinzento (Botrytis), mas, como qualquer morango de alta doçura, exige monitoramento contra tripes e ácaros.
+                <br> Adaptação: É uma planta "versátil", adaptando-se muito bem tanto ao cultivo em solo quanto aos sistemas semi-hidropônicos em calhas ou sacos (slabs).
+                <br>
+            </div>
+
+            <button class="colapsível">Diferenciais Comerciais</button>
+            <div class="conteúdo">
+                Pós-Colheita: Apesar de ser suculenta, possui uma firmeza de pele que suporta bem o manuseio e o transporte em embalagens de 250g a 400g.
+                <br> Mercado Premium: Pela sua beleza e sabor superior, é frequentemente destinada a nichos de mercado mais exigentes, como empórios e vendas diretas.
+            </div>
+        </div>
+    </div>
+    
+    <footer>Jullia: CSS, Javas <br> Laura: HTML<br> :)</footer>
+</body>
+
+<script>
+    var coll = document.getElementsByClassName("colapsível");/*Aqui o Javas vai pegar todos os elementos com a classe dentro dos parênteses*/
+    var i;
+
+    for (i = 0; i < coll.length; i++) /*Aqui aquele básico do for, precisamos de uma variavel para rodar */ {
+        coll[i].addEventListener("click", function()/*Aqui ele só vai realizar todo esse for quando a pessoa clicar*/ { /* O addEventListener vai "escutar' cada vez que a pessoa fazer o que eu passei nos parenteses" */
+            var content = this.nextElementSibling; /*this é o botão que você clicou. O nextElementSibling pega o "vizinho de baixo" (que no seu caso é a div com o texto)*/
+            if (content.style.display === "block") { /*é a partir do if/else que a mágia do conteúdo aparecer acontece :)*/
+                content.style.display = "none";
+            } else {
+                content.style.display = "block";
+            }
+        });
+    }
+</script>
+
+</html>
